@@ -7,10 +7,16 @@
     "name": "Elaine Y",
     "maintainer": true
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taby1/acconeer-radar.git"
+  },
   "version": "0.1",
   "license": "GPL-3.0",
   "frameworks": "arduino",
-  "platforms": ["espressif32"],
+  "platforms": [
+    "espressif32"
+  ],
   "dependencies": [],
   "build":{
     "extraScript": "link_libraries.py"
